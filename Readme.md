@@ -49,14 +49,14 @@ Hit the Refresh button in the upper right-hand corner so that the Designer is no
 
 ![form2](form2.png?raw=true "form2")
 
-*2. Save CloudFormation Stack*  
+**2. Save CloudFormation Stack**  
 In the CloudFormation Designer Toolbar, click the Document icon , and click Save.  
 Click Local File and click Save. The JSON file will download.  
 In the AWS CloudFormation Designer toolbar, click to validate your template. You will see a message that states, Template is valid.  
 
 ![form3](form3.png?raw=true "form3")
 
-*3. Deploy CloudFormation Stack*  
+**3. Deploy CloudFormation Stack**  
 In the CloudFormation Designer Toolbar, click to deploy the stack. The Create stack screen appears.  
 Accept the defaults and click Next.  
 Enter a Stack name. Leave Parameters empty. Click Next.  
@@ -67,8 +67,8 @@ Review the stack details and click Create Stack. The stack status will be CREATE
 
 ![form5](form5.png?raw=true "form5")
 
-*4. View S3 Bucket created by CloudFormation Stack*  
+**4. View S3 Bucket created by CloudFormation Stack**  
 ![form6](form6.png?raw=true "form6")
 
-*5. Delete CloudFormation Stack*
+**5. Delete CloudFormation Stack**
 
