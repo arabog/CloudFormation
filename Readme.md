@@ -2,7 +2,7 @@
 Creating an S3 bucket with AWS CloudFormation.
 
 ## Steps:
-*1. Create CloudFormation Stack*  
+**1. Create CloudFormation Stack**  
 Navigate to CloudFormation page
 ![form1](form1.png?raw=true "form1")
 
@@ -20,7 +20,6 @@ Select Bucket and drag it to the designer window on the right-hand side. It come
 }
 
 Copy the JSON below and replace entirely the JSON found in the Properties tab  
-`
 {
 
     "AWSTemplateFormatVersion": "2010-09-09",  
