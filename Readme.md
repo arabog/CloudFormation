@@ -9,7 +9,7 @@ Navigate to CloudFormation page
 Select Designer from the left-hand menu.  
 Locate S3 in the Resource Type section and expand it.  
 Select Bucket and drag it to the designer window on the right-hand side. It comes with this:    
-`{  
+{  
     
     "Resources": {  
         "S3BRX59": {  
@@ -17,11 +17,11 @@ Select Bucket and drag it to the designer window on the right-hand side. It come
             "Properties": {}  
         }  
     }  
-}`
+}
 
 Copy the JSON below and replace entirely the JSON found in the Properties tab  
 `
-`{
+{
 
     "AWSTemplateFormatVersion": "2010-09-09",  
 
@@ -44,7 +44,7 @@ Copy the JSON below and replace entirely the JSON found in the Properties tab
             "Description": "Name of the newly created Amazon S3 Bucket"
         }
     }
-}`
+}
 
 Hit the Refresh button in the upper right-hand corner so that the Designer is not out of date  
 
