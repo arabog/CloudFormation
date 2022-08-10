@@ -19,9 +19,9 @@ Select Bucket and drag it to the designer window on the right-hand side. It come
 }`
 
 Copy the JSON below and replace entirely the JSON found in the Properties tab  
-
-{
-    "AWSTemplateFormatVersion": "2010-09-09",
+`
+`{
+    "AWSTemplateFormatVersion": "2010-09-09",  
     "Description": "Basic S3 Bucket CloudFormation template",
     "Resources": {
         "S3BucketCreatedByCloudFormation": {
@@ -41,7 +41,7 @@ Copy the JSON below and replace entirely the JSON found in the Properties tab
             "Description": "Name of the newly created Amazon S3 Bucket"
         }
     }
-}
+}`
 
 Hit the Refresh button in the upper right-hand corner so that the Designer is not out of date  
 
