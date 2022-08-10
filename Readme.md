@@ -9,13 +9,13 @@ Navigate to CloudFormation page
 Select Designer from the left-hand menu.  
 Locate S3 in the Resource Type section and expand it.  
 Select Bucket and drag it to the designer window on the right-hand side. It comes with this:    
-`{
-    "Resources": {
-        "S3BRX59": {
-            "Type": "AWS::S3::Bucket",
-            "Properties": {}
-        }
-    }
+`{  
+    "Resources": {  
+        "S3BRX59": {  
+            "Type": "AWS::S3::Bucket",  
+            "Properties": {}  
+        }  
+    }  
 }`
 
 Copy the JSON below and replace entirely the JSON found in the Properties tab  
